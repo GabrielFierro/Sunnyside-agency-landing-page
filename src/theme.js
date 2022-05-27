@@ -1,6 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
 
-export default extendedTheme({
+const theme = extendTheme({
 	colors: {
 		primary: {
 			softRed: "hsl(7, 99%, 70%)",
@@ -18,3 +18,5 @@ export default extendedTheme({
 		},
 	},
 });
+
+export default theme;
