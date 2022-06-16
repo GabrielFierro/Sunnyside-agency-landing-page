@@ -5,8 +5,11 @@ function App() {
   return (
     <div className="App">
       <article>
-        <header>
+        <header class="header">
           <ul>
+			  <li>
+				  <img src="../assets/images/logo.svg" alt="logo"></img>
+			  </li>
             <li>About</li>
             <li>Services</li>
             <li>Projects</li>
