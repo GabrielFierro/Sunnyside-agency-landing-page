@@ -1,13 +1,15 @@
 import React from 'react'
 import AgencyLogo from '../assets/images/logo.svg'
-// import Nav from ''
+import Nav from './Nav'
 import '../App.css'
 
 export default function NavBar() {
   return (
     <div className='header'>
-      <img src={AgencyLogo} alt='Logo' />
-      {/* <Nav /> */}
+      <div className='navbar'>
+        <img className='logo' src={AgencyLogo} alt='Logo' />
+        <Nav />
+      </div>
     </div>
   )
 }
