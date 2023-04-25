@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import NavBar from './components/NavBar'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
+      <NavBar />
       About Services Projects Contact We are creatives Transform your brand We
       are a full-service creative agency specializing in helping brands grow
       fast. Engage your clients through compelling visuals that do most of the
@@ -26,5 +25,3 @@ function App() {
     </>
   )
 }
-
-export default App
