@@ -33,3 +33,9 @@ body {
   font-family: var(--ff-barlow);
   font-weight: var(--fw-barlow);
 }
+
+.header {
+  max-width: 1440px;
+  height: 100vh;
+  background-color: var(--very-dark-desaturated-blue);
+}
