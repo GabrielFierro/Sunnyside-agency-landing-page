@@ -72,3 +72,17 @@ body {
   text-decoration: none;
   color: var(--white);
 }
+
+#contact {
+  background-color: var(--white);
+  border: 15px solid white;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+#contact a {
+  color: black;
+  text-transform: uppercase;
+  font-family: var(--ff-fraunces);
+  font-weight: var(--fw-bold-fraunces);
+}
