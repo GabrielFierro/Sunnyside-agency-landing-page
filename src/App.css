@@ -45,7 +45,6 @@ body {
 .header {
   display: flex;
   flex-direction: row;
-  border: 1px solid blue;
 }
 
 .logo {
@@ -99,5 +98,4 @@ body {
   font-family: var(--ff-fraunces);
   font-weight: var(--fw-black-fraunces);
   letter-spacing: 5px;
-  border: 1px solid red;
 }
