@@ -99,3 +99,9 @@ body {
   font-weight: var(--fw-black-fraunces);
   letter-spacing: 5px;
 }
+
+.container_arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
