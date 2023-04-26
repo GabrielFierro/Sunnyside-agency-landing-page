@@ -45,6 +45,7 @@ body {
 .header {
   display: flex;
   flex-direction: row;
+  border: 1px solid blue;
 }
 
 .logo {
@@ -88,4 +89,15 @@ body {
   text-transform: uppercase;
   font-family: var(--ff-fraunces);
   font-weight: var(--fw-bold-fraunces);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--ff-fraunces);
+  font-weight: var(--fw-black-fraunces);
+  letter-spacing: 5px;
+  border: 1px solid red;
 }
