@@ -34,14 +34,17 @@ body {
   font-weight: var(--fw-barlow);
 }
 
-.header {
+.container {
   height: 100vh;
-  display: flex;
-  flex-direction: row;
   background-image: url(./assets/images/desktop/image-header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
 }
 
 .logo {
