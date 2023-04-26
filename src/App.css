@@ -106,3 +106,9 @@ body {
   justify-content: center;
   margin-top: 65px;
 }
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
