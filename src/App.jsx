@@ -1,8 +1,11 @@
+// Components
 import NavBar from './components/navbar/NavBar'
 import Image from './components/Card/Image'
 import Text from './components/Card/Text'
+// Images
 import ImageTransform from './assets/images/desktop/image-transform.jpg'
 import ImageStandOut from './assets/images/desktop/image-stand-out.jpg'
+// Css file
 import './App.css'
 
 export default function App() {
