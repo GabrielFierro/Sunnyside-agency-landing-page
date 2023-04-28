@@ -1,7 +1,7 @@
 import React from 'react'
 import AgencyLogo from '../../assets/images/logo.svg'
-import ArrowDown from '../../assets/images/icon-arrow-down.svg'
 import Nav from './Nav'
+import Header from '../Header/Header'
 import '../../App.css'
 
 export default function NavBar() {
@@ -13,10 +13,7 @@ export default function NavBar() {
           <Nav />
         </div>
       </div>
-      <h1 className='title'>we are creatives</h1>
-      <div className='container_arrow'>
-        <img src={ArrowDown} alt='arrow down' />
-      </div>
+      <Header title='we are creative' />
     </div>
   )
 }
