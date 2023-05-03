@@ -2,9 +2,12 @@
 import NavBar from './components/navbar/NavBar'
 import Image from './components/Card/Image'
 import Text from './components/Card/Text'
+import ImageText from './components/Card/ImageText'
 // Images
 import ImageTransform from './assets/images/desktop/image-transform.jpg'
 import ImageStandOut from './assets/images/desktop/image-stand-out.jpg'
+import CherryImage from './assets/images/desktop/image-graphic-design.jpg'
+import OrangeImage from './assets/images/desktop/image-photography.jpg'
 // Css file
 import './App.css'
 
@@ -33,6 +36,24 @@ export default function App() {
               "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.",
             span: 'Learn more'
           }}
+        />
+        <ImageText
+          text={{
+            title: 'Graphic design',
+            paragraph:
+              "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention."
+          }}
+          src={CherryImage}
+          alt='Image about a cherry'
+        />
+        <ImageText
+          text={{
+            title: 'Photography',
+            paragraph:
+              'Increase your credibility by getting the most stunning, high-quality photos that improve your business image.'
+          }}
+          src={OrangeImage}
+          alt='Image about an orange'
         />
       </div>
       Learn more Graphic design Great design makes you memorable. We deliver
