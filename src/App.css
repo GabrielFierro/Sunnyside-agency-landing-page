@@ -125,3 +125,16 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+/* Class for the ImageText.jsx component */
+.containerImage {
+  position: relative;
+  width: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  right: 25%;
+}
