@@ -56,10 +56,6 @@ export default function App() {
           alt='Image about an orange'
         />
       </div>
-      Learn more Graphic design Great design makes you memorable. We deliver
-      artwork that underscores your brand message and captures potential
-      clients' attention. Photography Increase your credibility by getting the
-      most stunning, high-quality photos that improve your business image.
       Client testimonials We put our trust in Sunnyside and they delivered,
       making sure our needs were met and deadlines were always hit. Emily R.
       Marketing Director Sunnyside's enthusiasm coupled with their keen interest
