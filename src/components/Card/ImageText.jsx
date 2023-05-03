@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ImageText({ text, src, alt }) {
   return (
-    <div>
+    <div className='containerImage'>
       <img className='image' src={src} alt={alt} />
       <div className='center'>
         <h3>{text.title}</h3>
