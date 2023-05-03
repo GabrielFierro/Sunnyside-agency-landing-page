@@ -80,6 +80,7 @@ body {
   color: var(--white);
 }
 
+/* ID selector for the Nav.jsx component */
 #contact {
   background-color: var(--white);
   border: 15px solid white;
@@ -94,6 +95,7 @@ body {
   font-weight: var(--fw-bold-fraunces);
 }
 
+/* Classes for the Header.jsx component */
 .title {
   display: flex;
   justify-content: center;
@@ -110,12 +112,14 @@ body {
   margin-top: 65px;
 }
 
+/* Class for the App.jsx component */
 .grid_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
 }
 
+/* Class for the Image.jsx component */
 .image {
   width: 100%;
   height: 100%;
