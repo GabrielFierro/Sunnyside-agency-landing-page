@@ -20,7 +20,7 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <div className='grid_container'>
+      <main className='grid_container'>
         <Text
           text={{
             title: 'Transform your brand',
@@ -64,7 +64,7 @@ export default function App() {
           alt='Image about an orange'
           isGreen={false}
         />
-      </div>
+      </main>
       <section className='containerSection'>
         <h4>Client testimonials</h4>
         <div className='containerFlex'>
