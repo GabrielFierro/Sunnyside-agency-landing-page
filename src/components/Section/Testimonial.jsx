@@ -13,8 +13,8 @@ export default function Testimonial({
         src={profilePicture}
         alt='profile picture'
       />
-      <p>{comment}</p>
-      <p>{name}</p>
+      <p className='comment'>{comment}</p>
+      <p className='name'>{name}</p>
       <span>{position}</span>
     </div>
   );
