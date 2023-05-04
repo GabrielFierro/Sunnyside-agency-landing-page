@@ -173,6 +173,20 @@ body {
   font-weight: var(--fw-black-fraunces);
   text-transform: uppercase;
   display: inline;
+}
+
+.underline_red {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 0, 0, 0.4) 90%,
+    rgba(255, 0, 0, 0.5) 100%
+  );
+}
+
+.underline_yellow {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
