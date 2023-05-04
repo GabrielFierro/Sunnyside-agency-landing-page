@@ -35,6 +35,22 @@ body {
 }
 
 /* Class for the App.jsx component */
+.containerSection {
+  height: 450px;
+  padding: 100px 50px;
+}
+
+.containerSection h4 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: var(--ff-fraunces);
+  font-weight: var(--fw-bold-fraunces);
+  color: var(--grayish-blue);
+  letter-spacing: 5px;
+  margin-bottom: 75px;
+}
+
 .containerFlex {
   display: flex;
   flex-direction: row;
