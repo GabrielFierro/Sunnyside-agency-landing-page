@@ -67,35 +67,29 @@ export default function App() {
       </div>
       <section>
         <h4>Client testimonials</h4>
-        <ul>
-          <li>
-            <Testimonial
-              profilePicture={Emily}
-              comment='We put our trust in Sunnyside and they delivered,
+        <div className='containerFlex'>
+          <Testimonial
+            profilePicture={Emily}
+            comment='We put our trust in Sunnyside and they delivered,
               making sure our needs were met and deadlines were always hit.'
-              name='Emily R.'
-              position='Marketing Director'
-            />
-          </li>
-          <li>
-            <Testimonial
-              profilePicture={Thomas}
-              comment="Sunnyside's enthusiasm coupled with their keen interest
+            name='Emily R.'
+            position='Marketing Director'
+          />
+          <Testimonial
+            profilePicture={Thomas}
+            comment="Sunnyside's enthusiasm coupled with their keen interest
               in our brand's success made it a satisfying and enjoyable experience."
-              name='Thomas S.'
-              position='Chief Operating Officer'
-            />
-          </li>
-          <li>
-            <Testimonial
-              profilePicture={Jennie}
-              comment='Incredible end result! Our sales
+            name='Thomas S.'
+            position='Chief Operating Officer'
+          />
+          <Testimonial
+            profilePicture={Jennie}
+            comment='Incredible end result! Our sales
               increased over 400% when we worked with Sunnyside. Highly recommended!'
-              name='Jennie F.'
-              position='Business Owner'
-            />
-          </li>
-        </ul>
+            name='Jennie F.'
+            position='Business Owner'
+          />
+        </div>
       </section>
       About Services Projects Contact
     </>
