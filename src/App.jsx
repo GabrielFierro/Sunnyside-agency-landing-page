@@ -1,5 +1,5 @@
 // Components
-import NavBar from './components/navbar/NavBar';
+import NavBar from './components/Navbar/NavBar';
 import Image from './components/Card/Image';
 import Text from './components/Card/Text';
 import ImageText from './components/Card/ImageText';
