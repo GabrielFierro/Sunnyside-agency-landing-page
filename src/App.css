@@ -258,3 +258,20 @@ body {
   border-radius: 50%;
   margin-bottom: 20px;
 }
+
+.comment {
+  color: var(--very-dark-grayish-blue);
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.name {
+  color: var(--very-dark-desaturated-blue);
+  font-family: var(--ff-fraunces);
+  font-weight: var(--fw-black-fraunces);
+}
+
+.flex span {
+  color: var(--grayish-blue);
+  font-size: 12px;
+}
