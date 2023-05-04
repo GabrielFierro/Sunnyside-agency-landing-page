@@ -23,6 +23,7 @@ export default function App() {
               'We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.',
             span: 'Learn more'
           }}
+          isYellow={true}
         />
         <Image
           src={ImageTransform}
@@ -36,6 +37,7 @@ export default function App() {
               "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.",
             span: 'Learn more'
           }}
+          isYellow={false}
         />
         <ImageText
           text={{
