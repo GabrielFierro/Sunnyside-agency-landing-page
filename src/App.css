@@ -34,6 +34,13 @@ body {
   font-weight: var(--fw-barlow);
 }
 
+/* Class for the App.jsx component */
+.containerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 /* Classes for the NavBar.jsx component */
 .container {
   height: 100vh;
