@@ -65,7 +65,7 @@ export default function App() {
           isGreen={false}
         />
       </div>
-      <section>
+      <section className='containerSection'>
         <h4>Client testimonials</h4>
         <div className='containerFlex'>
           <Testimonial
