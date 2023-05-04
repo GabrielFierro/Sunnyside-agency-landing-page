@@ -61,6 +61,11 @@ ul {
   justify-content: space-evenly;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Classes for the NavBar.jsx component */
 .container {
   height: 100vh;
