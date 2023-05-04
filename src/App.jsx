@@ -4,6 +4,7 @@ import Image from './components/Card/Image';
 import Text from './components/Card/Text';
 import ImageText from './components/Card/ImageText';
 import Testimonial from './components/Section/Testimonial';
+import Gallery from './components/Gallery/Gallery';
 // Images
 import ImageTransform from './assets/images/desktop/image-transform.jpg';
 import ImageStandOut from './assets/images/desktop/image-stand-out.jpg';
@@ -13,6 +14,11 @@ import OrangeImage from './assets/images/desktop/image-photography.jpg';
 import Emily from './assets/images/image-emily.jpg';
 import Thomas from './assets/images/image-thomas.jpg';
 import Jennie from './assets/images/image-jennie.jpg';
+// Gallery images
+import MilkBottles from './assets/images/desktop/image-gallery-milkbottles.jpg';
+import Orange from './assets/images/desktop/image-gallery-orange.jpg';
+import Cone from './assets/images/desktop/image-gallery-cone.jpg';
+import SugarCubes from './assets/images/desktop/image-gallery-sugarcubes.jpg';
 // Css file
 import './App.css';
 
@@ -102,6 +108,12 @@ export default function App() {
             position='Business Owner'
           />
         </div>
+      </section>
+      <section className='gallery'>
+        <Gallery src={MilkBottles} alt='Milk bottles' />
+        <Gallery src={Orange} alt='Orange' />
+        <Gallery src={Cone} alt='Cone' />
+        <Gallery src={SugarCubes} alt='Sugar cubes' />
       </section>
       About Services Projects Contact
     </>
