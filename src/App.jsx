@@ -47,6 +47,7 @@ export default function App() {
           }}
           src={CherryImage}
           alt='Image about a cherry'
+          isGreen={true}
         />
         <ImageText
           text={{
@@ -56,6 +57,7 @@ export default function App() {
           }}
           src={OrangeImage}
           alt='Image about an orange'
+          isGreen={false}
         />
       </div>
       Client testimonials We put our trust in Sunnyside and they delivered,
