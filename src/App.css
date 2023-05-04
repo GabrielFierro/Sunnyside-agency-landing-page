@@ -34,6 +34,10 @@ body {
   font-weight: var(--fw-barlow);
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Class for the App.jsx component */
 .containerSection {
   height: 450px;
