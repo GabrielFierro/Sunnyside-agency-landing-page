@@ -138,3 +138,47 @@ body {
   left: 25%;
   right: 25%;
 }
+
+/* Classes for the Text.jsx component */
+.containerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.text {
+  width: 400px;
+  height: 350px;
+}
+
+/* Selectors for the Text.jsx component */
+.text h3 {
+  color: var(--very-dark-desaturated-blue);
+  font-family: var(--ff-fraunces);
+  font-weight: var(--fw-black-fraunces);
+  font-size: 36px;
+}
+
+.text p {
+  color: var(--dark-grayish-blue);
+  font-weight: var(--fw-bold-fraunces);
+  margin: 35px 0;
+}
+
+.text span {
+  color: var(--very-dark-desaturated-blue);
+  font-family: var(--ff-fraunces);
+  font-weight: var(--fw-black-fraunces);
+  text-transform: uppercase;
+  display: inline;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 0, 0.4) 90%,
+    rgb(255, 255, 0, 0.5) 100%
+  );
+}
