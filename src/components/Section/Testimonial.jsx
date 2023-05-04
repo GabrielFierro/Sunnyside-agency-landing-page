@@ -6,6 +6,9 @@ export default function Testimonial({
   name,
   position
 }) {
+  {
+    /* Get props and display like a flex card with a flex direction of column, all the data. */
+  }
   return (
     <div className='flex'>
       <img
