@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Text({ text }) {
   return (
@@ -9,5 +9,5 @@ export default function Text({ text }) {
         <span>{text.span}</span>
       </div>
     </div>
-  )
+  );
 }

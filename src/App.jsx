@@ -1,15 +1,15 @@
 // Components
-import NavBar from './components/navbar/NavBar'
-import Image from './components/Card/Image'
-import Text from './components/Card/Text'
-import ImageText from './components/Card/ImageText'
+import NavBar from './components/navbar/NavBar';
+import Image from './components/Card/Image';
+import Text from './components/Card/Text';
+import ImageText from './components/Card/ImageText';
 // Images
-import ImageTransform from './assets/images/desktop/image-transform.jpg'
-import ImageStandOut from './assets/images/desktop/image-stand-out.jpg'
-import CherryImage from './assets/images/desktop/image-graphic-design.jpg'
-import OrangeImage from './assets/images/desktop/image-photography.jpg'
+import ImageTransform from './assets/images/desktop/image-transform.jpg';
+import ImageStandOut from './assets/images/desktop/image-stand-out.jpg';
+import CherryImage from './assets/images/desktop/image-graphic-design.jpg';
+import OrangeImage from './assets/images/desktop/image-photography.jpg';
 // Css file
-import './App.css'
+import './App.css';
 
 export default function App() {
   return (
@@ -64,5 +64,5 @@ export default function App() {
       increased over 400% when we worked with Sunnyside. Highly recommended!
       Jennie F. Business Owner About Services Projects Contact
     </>
-  )
+  );
 }

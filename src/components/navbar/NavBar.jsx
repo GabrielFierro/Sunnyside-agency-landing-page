@@ -1,8 +1,8 @@
-import React from 'react'
-import AgencyLogo from '../../assets/images/logo.svg'
-import Nav from './Nav'
-import Header from '../Header/Header'
-import '../../App.css'
+import React from 'react';
+import AgencyLogo from '../../assets/images/logo.svg';
+import Nav from './Nav';
+import Header from '../Header/Header';
+import '../../App.css';
 
 export default function NavBar() {
   return (
@@ -15,5 +15,5 @@ export default function NavBar() {
       </div>
       <Header title='we are creative' />
     </div>
-  )
+  );
 }

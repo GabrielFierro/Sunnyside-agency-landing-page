@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function ImageText({ text, src, alt }) {
   return (
@@ -10,5 +10,5 @@ export default function ImageText({ text, src, alt }) {
         <span>{text.span}</span>
       </div>
     </div>
-  )
+  );
 }

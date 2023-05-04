@@ -1,6 +1,6 @@
-import React from 'react'
-import ArrowDown from '../../assets/images/icon-arrow-down.svg'
-import '../../App.css'
+import React from 'react';
+import ArrowDown from '../../assets/images/icon-arrow-down.svg';
+import '../../App.css';
 
 export default function Header({ title }) {
   return (
@@ -10,5 +10,5 @@ export default function Header({ title }) {
         <img src={ArrowDown} alt='arrow down' />
       </div>
     </div>
-  )
+  );
 }

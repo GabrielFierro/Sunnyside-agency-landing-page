@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Nav() {
   return (
@@ -16,5 +16,5 @@ export default function Nav() {
         <a href='#'>Contact</a>
       </li>
     </ul>
-  )
+  );
 }
