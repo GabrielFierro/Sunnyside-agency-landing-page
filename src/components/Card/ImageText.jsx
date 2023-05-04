@@ -8,7 +8,6 @@ export default function ImageText({ text, src, alt }) {
         <div className='centerText'>
           <h3>{text.title}</h3>
           <p>{text.paragraph}</p>
-          <span>{text.span}</span>
         </div>
       </div>
     </div>
