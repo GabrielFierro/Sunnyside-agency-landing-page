@@ -143,6 +143,28 @@ body {
   text-align: center;
 }
 
+.styleText h3 {
+  font-family: var(--ff-fraunces);
+  font-weight: var(--fw-black-fraunces);
+  font-size: 28px;
+}
+
+.green {
+  color: var(--dark-desaturated-cyan);
+}
+
+.green p {
+  color: var(--dark-moderate-cyan);
+}
+
+.blue {
+  color: var(--very-dark-desaturated-blue);
+}
+
+.blue p {
+  color: var(--dark-blue);
+}
+
 /* Classes for the Text.jsx component */
 .containerText {
   display: flex;
