@@ -19,8 +19,11 @@ import './App.css';
 export default function App() {
   return (
     <>
+      {/* Render the NavBar component */}
       <NavBar />
+      {/* Render the Text, Image, and ImageText components as main content */}
       <main className='grid_container'>
+        {/* Render the Text component */}
         <Text
           text={{
             title: 'Transform your brand',
@@ -30,11 +33,14 @@ export default function App() {
           }}
           isYellow={true}
         />
+        {/* Render the Image component */}
         <Image
           src={ImageTransform}
           alt='Image about an egg with yellow background'
         />
+        {/* Render the Image component */}
         <Image src={ImageStandOut} alt='Image about a ping glass' />
+        {/* Render the Text component */}
         <Text
           text={{
             title: 'Stand out to the right audience',
@@ -44,6 +50,7 @@ export default function App() {
           }}
           isYellow={false}
         />
+        {/* Render the ImageText component */}
         <ImageText
           text={{
             title: 'Graphic design',
@@ -54,6 +61,7 @@ export default function App() {
           alt='Image about a cherry'
           isGreen={true}
         />
+        {/* Render the ImageText component */}
         <ImageText
           text={{
             title: 'Photography',
@@ -65,9 +73,11 @@ export default function App() {
           isGreen={false}
         />
       </main>
+      {/* Section for the testimonials */}
       <section className='containerSection'>
         <h4>Client testimonials</h4>
         <div className='containerFlex'>
+          {/* Render the Testimonial component */}
           <Testimonial
             profilePicture={Emily}
             comment='We put our trust in Sunnyside and they delivered,
@@ -75,6 +85,7 @@ export default function App() {
             name='Emily R.'
             position='Marketing Director'
           />
+          {/* Render the Testimonial component */}
           <Testimonial
             profilePicture={Thomas}
             comment="Sunnyside's enthusiasm coupled with their keen interest
@@ -82,6 +93,7 @@ export default function App() {
             name='Thomas S.'
             position='Chief Operating Officer'
           />
+          {/* Render the Testimonial component */}
           <Testimonial
             profilePicture={Jennie}
             comment='Incredible end result! Our sales
