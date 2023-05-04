@@ -3,11 +3,16 @@ import NavBar from './components/navbar/NavBar';
 import Image from './components/Card/Image';
 import Text from './components/Card/Text';
 import ImageText from './components/Card/ImageText';
+import Testimonial from './components/Section/Testimonial';
 // Images
 import ImageTransform from './assets/images/desktop/image-transform.jpg';
 import ImageStandOut from './assets/images/desktop/image-stand-out.jpg';
 import CherryImage from './assets/images/desktop/image-graphic-design.jpg';
 import OrangeImage from './assets/images/desktop/image-photography.jpg';
+// Profile pictures
+import Emily from './assets/images/image-emily.jpg';
+import Thomas from './assets/images/image-thomas.jpg';
+import Jennie from './assets/images/image-jennie.jpg';
 // Css file
 import './App.css';
 
@@ -60,6 +65,38 @@ export default function App() {
           isGreen={false}
         />
       </div>
+      <section>
+        <h4>Client testimonials</h4>
+        <ul>
+          <li>
+            <Testimonial
+              profilePicture={Emily}
+              comment='We put our trust in Sunnyside and they delivered,
+              making sure our needs were met and deadlines were always hit.'
+              name='Emily R.'
+              position='Marketing Director'
+            />
+          </li>
+          <li>
+            <Testimonial
+              profilePicture={Thomas}
+              comment="Sunnyside's enthusiasm coupled with their keen interest
+              in our brand's success made it a satisfying and enjoyable experience."
+              name='Thomas S.'
+              position='Chief Operating Officer'
+            />
+          </li>
+          <li>
+            <Testimonial
+              profilePicture={Jennie}
+              comment='Incredible end result! Our sales
+              increased over 400% when we worked with Sunnyside. Highly recommended!'
+              name='Jennie F.'
+              position='Business Owner'
+            />
+          </li>
+        </ul>
+      </section>
       Client testimonials We put our trust in Sunnyside and they delivered,
       making sure our needs were met and deadlines were always hit. Emily R.
       Marketing Director Sunnyside's enthusiasm coupled with their keen interest
