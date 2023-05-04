@@ -284,3 +284,15 @@ ul {
   color: var(--grayish-blue);
   font-size: 12px;
 }
+
+/* Section for the Gallery.jsx component */
+
+.column {
+  width: 100vw;
+  height: 400px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
