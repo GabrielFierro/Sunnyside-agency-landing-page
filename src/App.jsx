@@ -31,7 +31,7 @@ export default function App() {
       {/* Render the Text, Image, and ImageText components as main content */}
       <main className='grid_container'>
         {/* Render the Text component */}
-        <div>
+        <div className='textWrapper'>
           <Text
             text={{
               title: 'Transform your brand',
@@ -54,7 +54,7 @@ export default function App() {
           <Image src={ImageStandOut} alt='Image about a ping glass' />
         </div>
         {/* Render the Text component */}
-        <div>
+        <div className='textWrapper'>
           <Text
             text={{
               title: 'Stand out to the right audience',
