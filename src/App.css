@@ -526,6 +526,22 @@ a {
 
   @media (max-width: 550px) {
     /* Class for the App.jsx component */
+    .containerSection {
+      height: 1200px;
+      padding: 50px 0;
+    }
+
+    .containerSection h4 {
+      margin-bottom: 0;
+    }
+
+    .containerFlex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+
     .grid_container {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
