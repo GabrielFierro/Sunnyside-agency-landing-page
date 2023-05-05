@@ -82,7 +82,7 @@ a {
 .header {
   display: flex;
   flex-direction: row;
-  padding: 15px 0;
+  padding: 50px;
 }
 
 .navbar {
@@ -90,7 +90,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 30px 30px;
 }
 
 .logo {
@@ -464,6 +463,10 @@ a {
   }
 
   /* Class for the NavBar.jsx component */
+  .header {
+    padding: 30px;
+  }
+
   .navbar {
     padding: 30px 50px;
   }
