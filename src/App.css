@@ -527,4 +527,36 @@ a {
   a {
     color: var(--dark-grayish-blue);
   }
+
+  @media (max-width: 550px) {
+    /* Class for the App.jsx component */
+    .grid_container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+    }
+
+    .grid_container div:nth-of-type(1) {
+      order: 2;
+    }
+
+    .grid_container div:nth-of-type(2) {
+      order: 1;
+    }
+
+    .grid_container div:nth-of-type(3) {
+      order: 3;
+    }
+
+    .grid_container div:nth-of-type(4) {
+      order: 4;
+    }
+
+    .grid_container div:nth-of-type(5) {
+      order: 5;
+    }
+
+    .grid_container div:nth-of-type(6) {
+      order: 6;
+    }
+  }
 }
