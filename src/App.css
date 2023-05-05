@@ -158,6 +158,14 @@ a {
   grid-template-rows: repeat(3, 1fr);
 }
 
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
 /* Class for the Image.jsx component */
 .image {
   width: 100%;
