@@ -66,31 +66,27 @@ export default function App() {
           />
         </div>
         {/* Render the ImageText component */}
-        <div>
-          <ImageText
-            text={{
-              title: 'Graphic design',
-              paragraph:
-                "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention."
-            }}
-            src={CherryImage}
-            alt='Image about a cherry'
-            isGreen={true}
-          />
-        </div>
+        <ImageText
+          text={{
+            title: 'Graphic design',
+            paragraph:
+              "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention."
+          }}
+          src={CherryImage}
+          alt='Image about a cherry'
+          isGreen={true}
+        />
         {/* Render the ImageText component */}
-        <div>
-          <ImageText
-            text={{
-              title: 'Photography',
-              paragraph:
-                'Increase your credibility by getting the most stunning, high-quality photos that improve your business image.'
-            }}
-            src={OrangeImage}
-            alt='Image about an orange'
-            isGreen={false}
-          />
-        </div>
+        <ImageText
+          text={{
+            title: 'Photography',
+            paragraph:
+              'Increase your credibility by getting the most stunning, high-quality photos that improve your business image.'
+          }}
+          src={OrangeImage}
+          alt='Image about an orange'
+          isGreen={false}
+        />
       </main>
       {/* Section for the testimonials */}
       <section className='containerSection'>
