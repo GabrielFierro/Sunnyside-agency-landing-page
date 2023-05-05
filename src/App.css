@@ -447,12 +447,12 @@ a {
   }
 
   .centerContainer {
-    left: 0;
+    width: 200px;
   }
 
   .centerText {
     text-align: center;
-    margin: 0 25px;
+    margin: 0;
   }
 
   .styleText h3 {
