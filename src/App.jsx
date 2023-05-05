@@ -117,7 +117,6 @@ export default function App() {
         <Gallery src={SugarCubes} alt='Sugar cubes' />
       </section>
       <Footer />
-      About Services Projects Contact
     </>
   );
 }
