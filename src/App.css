@@ -215,10 +215,6 @@ a {
 /* Classes for the Text.jsx component */
 .containerText {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
 }
 
 .text {
