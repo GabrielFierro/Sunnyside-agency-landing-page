@@ -441,12 +441,8 @@ a {
   }
 
   /* Selectors for the ImageText.jsx component */
-  .containerImage {
-    height: 400px;
-  }
-
   .centerContainer {
-    width: 200px;
+    max-width: 250px;
   }
 
   .centerText {
@@ -564,25 +560,53 @@ a {
       max-width: 500px;
       text-align: center;
     }
+
     .text {
       width: auto;
       height: 350px;
       display: flex;
       flex-direction: column;
-      padding: 0 50px;
+      padding: 30px 50px;
     }
 
     .text h3 {
-      font-size: 32px;
+      font-size: 38px;
       width: 100%;
     }
 
     .text p {
-      margin: 35px 0;
+      font-size: 20px;
+      margin: 35px 5px 45px;
     }
 
     .text span {
-      font-size: 14px;
+      font-size: 20px;
+    }
+
+    /* Class for the ImageText.jsx component */
+    .containerImage {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .centerContainer {
+      max-width: 400px;
+      left: 15%;
+    }
+
+    .styleText h3 {
+      font-size: 36px;
+    }
+
+    .styleText p {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .centerContainer {
+      left: 10%;
     }
   }
 }
