@@ -296,3 +296,48 @@ ul {
   width: 100%;
   height: auto;
 }
+
+/* Classes for the Footer.jsx component */
+.footer_container {
+  height: 300px;
+  background-color: #8ad2c4;
+}
+
+.footer_flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer_flex path {
+  fill: var(--dark-desaturated-cyan);
+  transform: scale(1.5);
+}
+
+.footer_sections {
+  width: 300px;
+  margin: 15px 0 50px;
+}
+
+.footer_sections ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.footer_sections ul li {
+  color: var(--dark-moderate-cyan);
+}
+
+.footer_social {
+  width: 200px;
+}
+
+.footer_socialFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
