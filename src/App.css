@@ -341,3 +341,43 @@ ul {
   flex-direction: row;
   justify-content: space-around;
 }
+
+/* Add the breakpoints */
+@media (max-width: 1100px) {
+  /* Selectors for the ImageText.jsx component */
+  .centerContainer {
+    width: 300px;
+    left: 20%;
+  }
+  .styleText h3 {
+    font-size: 16px;
+  }
+  .styleText p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Selectors for the ImageText.jsx component */
+  .centerContainer {
+    left: 15%;
+  }
+  /* Class for the Text.jsx component */
+  .text {
+    width: 350px;
+    height: 300px;
+  }
+
+  /* Selectors for the Text.jsx component */
+  .text h3 {
+    font-size: 24px;
+  }
+
+  .text p {
+    margin: 35px 0;
+  }
+
+  .text span {
+    font-size: 14px;
+  }
+}
