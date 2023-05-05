@@ -5,6 +5,7 @@ import Text from './components/Card/Text';
 import ImageText from './components/Card/ImageText';
 import Testimonial from './components/Section/Testimonial';
 import Gallery from './components/Gallery/Gallery';
+import Footer from './components/Footer/Footer';
 // Images
 import ImageTransform from './assets/images/desktop/image-transform.jpg';
 import ImageStandOut from './assets/images/desktop/image-stand-out.jpg';
@@ -115,6 +116,7 @@ export default function App() {
         <Gallery src={Cone} alt='Cone' />
         <Gallery src={SugarCubes} alt='Sugar cubes' />
       </section>
+      <Footer />
       About Services Projects Contact
     </>
   );
