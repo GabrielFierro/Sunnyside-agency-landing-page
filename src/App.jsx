@@ -31,54 +31,66 @@ export default function App() {
       {/* Render the Text, Image, and ImageText components as main content */}
       <main className='grid_container'>
         {/* Render the Text component */}
-        <Text
-          text={{
-            title: 'Transform your brand',
-            paragraph:
-              'We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.',
-            span: 'Learn more'
-          }}
-          isYellow={true}
-        />
+        <div>
+          <Text
+            text={{
+              title: 'Transform your brand',
+              paragraph:
+                'We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.',
+              span: 'Learn more'
+            }}
+            isYellow={true}
+          />
+        </div>
         {/* Render the Image component */}
-        <Image
-          src={ImageTransform}
-          alt='Image about an egg with yellow background'
-        />
+        <div>
+          <Image
+            src={ImageTransform}
+            alt='Image about an egg with yellow background'
+          />
+        </div>
         {/* Render the Image component */}
-        <Image src={ImageStandOut} alt='Image about a ping glass' />
+        <div>
+          <Image src={ImageStandOut} alt='Image about a ping glass' />
+        </div>
         {/* Render the Text component */}
-        <Text
-          text={{
-            title: 'Stand out to the right audience',
-            paragraph:
-              "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.",
-            span: 'Learn more'
-          }}
-          isYellow={false}
-        />
+        <div>
+          <Text
+            text={{
+              title: 'Stand out to the right audience',
+              paragraph:
+                "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.",
+              span: 'Learn more'
+            }}
+            isYellow={false}
+          />
+        </div>
         {/* Render the ImageText component */}
-        <ImageText
-          text={{
-            title: 'Graphic design',
-            paragraph:
-              "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention."
-          }}
-          src={CherryImage}
-          alt='Image about a cherry'
-          isGreen={true}
-        />
+        <div>
+          <ImageText
+            text={{
+              title: 'Graphic design',
+              paragraph:
+                "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention."
+            }}
+            src={CherryImage}
+            alt='Image about a cherry'
+            isGreen={true}
+          />
+        </div>
         {/* Render the ImageText component */}
-        <ImageText
-          text={{
-            title: 'Photography',
-            paragraph:
-              'Increase your credibility by getting the most stunning, high-quality photos that improve your business image.'
-          }}
-          src={OrangeImage}
-          alt='Image about an orange'
-          isGreen={false}
-        />
+        <div>
+          <ImageText
+            text={{
+              title: 'Photography',
+              paragraph:
+                'Increase your credibility by getting the most stunning, high-quality photos that improve your business image.'
+            }}
+            src={OrangeImage}
+            alt='Image about an orange'
+            isGreen={false}
+          />
+        </div>
       </main>
       {/* Section for the testimonials */}
       <section className='containerSection'>
