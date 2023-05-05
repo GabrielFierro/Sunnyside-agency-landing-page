@@ -558,5 +558,31 @@ a {
     .grid_container div:nth-of-type(6) {
       order: 6;
     }
+
+    /* Selectors for the Text.jsx component */
+    .containerText {
+      max-width: 500px;
+      text-align: center;
+    }
+    .text {
+      width: auto;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      padding: 0 50px;
+    }
+
+    .text h3 {
+      font-size: 32px;
+      width: 100%;
+    }
+
+    .text p {
+      margin: 35px 0;
+    }
+
+    .text span {
+      font-size: 14px;
+    }
   }
 }
