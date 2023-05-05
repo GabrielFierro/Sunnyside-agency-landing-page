@@ -38,6 +38,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Class for the App.jsx component */
 .containerSection {
   height: 450px;
@@ -92,6 +96,10 @@ ul {
 .logo {
   width: 150px;
   height: 30px;
+}
+
+.hamburger {
+  display: none;
 }
 
 /* Class for the Nav.jsx component */
@@ -379,5 +387,141 @@ ul {
 
   .text span {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 770px) {
+  /* Selectors for the ImageText.jsx component */
+  .centerContainer {
+    width: 300px;
+    left: 10%;
+  }
+
+  .styleText h3 {
+    font-size: 16px;
+  }
+
+  .styleText p {
+    font-size: 12px;
+  }
+  /* Class for the Text.jsx component */
+  .text {
+    width: 300px;
+    height: 275px;
+  }
+}
+
+@media (max-width: 700px) {
+  /* Selectors for the ImageText.jsx component */
+  .centerContainer {
+    width: 300px;
+    left: 5%;
+  }
+
+  .styleText h3 {
+    font-size: 16px;
+  }
+
+  .styleText p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* Selectors for the Text.jsx component */
+  .text {
+    width: 200px;
+    height: 275px;
+  }
+  .text h3 {
+    font-size: 16px;
+  }
+
+  .text p {
+    margin: 35px 0;
+  }
+
+  /* Selectors for the ImageText.jsx component */
+  .containerImage {
+    height: 400px;
+  }
+
+  .centerContainer {
+    left: 0;
+  }
+
+  .centerText {
+    text-align: center;
+    margin: 0 25px;
+  }
+
+  .styleText h3 {
+    font-size: 16px;
+  }
+
+  .styleText p {
+    font-size: 12px;
+  }
+
+  /* Class for the NavBar.jsx component */
+  .navbar {
+    padding: 30px 50px;
+  }
+
+  .toggle {
+    position: relative;
+    right: 30px;
+    top: 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  /* Class for the Nav.jsx component */
+  #contact {
+    background-color: var(--yellow);
+    border: 10px solid white;
+    border-radius: 50px;
+    padding: 5px;
+  }
+
+  #contact a {
+    font-size: 14px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu-nav {
+    list-style: none;
+    position: absolute;
+    background-color: var(--white);
+    top: 15%;
+    left: 20%;
+    width: 0;
+    overflow: hidden;
+    max-width: 250px;
+    font-size: 18px;
+  }
+  .menu-nav.show-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+  .menu-nav li a,
+  .menu-nav li span {
+    display: block;
+    padding: 1.2rem 1rem;
+  }
+
+  a {
+    color: var(--dark-grayish-blue);
   }
 }
