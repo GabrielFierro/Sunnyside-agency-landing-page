@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Nav() {
+export default function Nav({ menuOpen }) {
   return (
-    <ul className='nav'>
+    <ul className={`${menuOpen ? ' menu-nav show-menu' : 'nav'}`}>
       <li>
         <a href='#'>About</a>
       </li>
