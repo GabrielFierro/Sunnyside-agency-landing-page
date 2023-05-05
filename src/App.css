@@ -289,12 +289,12 @@ ul {
 
 .column {
   width: 100vw;
-  height: 400px;
+  height: 300px;
 }
 
 .column img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /* Classes for the Footer.jsx component */
