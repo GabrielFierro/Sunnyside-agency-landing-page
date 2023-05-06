@@ -134,6 +134,14 @@ a {
   font-weight: var(--fw-bold-fraunces);
 }
 
+#contact:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 15px solid rgba(255, 255, 255, 0.2);
+  &#contact a:hover {
+    color: white;
+  }
+}
+
 /* Classes for the Header.jsx component */
 .title {
   display: flex;
