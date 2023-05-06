@@ -263,6 +263,10 @@ a {
   );
 }
 
+.underline_red:hover {
+  cursor: pointer;
+}
+
 .underline_yellow {
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -272,6 +276,10 @@ a {
     rgba(255, 255, 0, 0.4) 90%,
     rgb(255, 255, 0, 0.5) 100%
   );
+}
+
+.underline_yellow:hover {
+  cursor: pointer;
 }
 
 /* Classes for the Testimonial.jsx component */
