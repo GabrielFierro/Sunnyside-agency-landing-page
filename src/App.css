@@ -359,6 +359,11 @@ a {
   color: var(--dark-moderate-cyan);
 }
 
+.footer_sections ul li:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+
 .footer_social {
   width: 200px;
 }
