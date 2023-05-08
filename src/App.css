@@ -231,7 +231,7 @@ a {
 }
 
 /* Selectors for the Text.jsx component */
-.text h3 {
+.text h1 {
   color: var(--very-dark-desaturated-blue);
   font-family: var(--ff-fraunces);
   font-weight: var(--fw-black-fraunces);
@@ -413,7 +413,7 @@ a {
   }
 
   /* Selectors for the Text.jsx component */
-  .text h3 {
+  .text h1 {
     font-size: 24px;
   }
 
@@ -474,7 +474,7 @@ a {
     width: 200px;
     height: 275px;
   }
-  .text h3 {
+  .text h1 {
     font-size: 16px;
   }
 
@@ -631,7 +631,7 @@ a {
       padding: 30px 50px;
     }
 
-    .text h3 {
+    .text h1 {
       font-size: 38px;
       width: 100%;
     }
