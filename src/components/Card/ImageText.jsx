@@ -8,12 +8,12 @@ export default function ImageText({ text, src, alt, isGreen }) {
         <div className='centerText'>
           {isGreen ? (
             <div className='styleText green'>
-              <h3>{text.title}</h3>
+              <h1>{text.title}</h1>
               <p>{text.paragraph}</p>
             </div>
           ) : (
             <div className='styleText blue'>
-              <h3>{text.title}</h3>
+              <h1>{text.title}</h1>
               <p>{text.paragraph}</p>
             </div>
           )}

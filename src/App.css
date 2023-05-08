@@ -198,7 +198,7 @@ a {
   text-align: center;
 }
 
-.styleText h3 {
+.styleText h1 {
   font-family: var(--ff-fraunces);
   font-weight: var(--fw-black-fraunces);
   font-size: 28px;
@@ -388,7 +388,7 @@ a {
     width: 300px;
     left: 20%;
   }
-  .styleText h3 {
+  .styleText h1 {
     font-size: 16px;
   }
   .styleText p {
@@ -438,7 +438,7 @@ a {
     left: 10%;
   }
 
-  .styleText h3 {
+  .styleText h1 {
     font-size: 16px;
   }
 
@@ -459,7 +459,7 @@ a {
     left: 5%;
   }
 
-  .styleText h3 {
+  .styleText h1 {
     font-size: 16px;
   }
 
@@ -492,7 +492,7 @@ a {
     margin: 0;
   }
 
-  .styleText h3 {
+  .styleText h1 {
     font-size: 16px;
   }
 
@@ -657,7 +657,7 @@ a {
       left: 15%;
     }
 
-    .styleText h3 {
+    .styleText h1 {
       font-size: 36px;
     }
 
