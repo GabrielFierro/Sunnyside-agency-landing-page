@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import AgencyLogo from '../../assets/images/logo.svg';
 import Nav from './Nav';
 import Header from '../Header/Header';
-import Hamburger from '../Navbar/Hamburger';
+import Hamburger from './Hamburger';
 import '../../App.css';
 
 export default function NavBar() {
