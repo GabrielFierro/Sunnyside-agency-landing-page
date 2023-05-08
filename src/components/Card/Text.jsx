@@ -4,7 +4,7 @@ export default function Text({ text, isYellow }) {
   return (
     <div className='containerText'>
       <div className='text'>
-        <h3>{text.title}</h3>
+        <h1>{text.title}</h1>
         <p>{text.paragraph}</p>
         <div>
           {isYellow ? (
