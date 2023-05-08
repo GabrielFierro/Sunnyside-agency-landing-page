@@ -29,7 +29,7 @@ export default function NavBar() {
     <div className='container'>
       <div className='header'>
         <div className='navbar' ref={ref}>
-          <img className='logo' src={AgencyLogo} alt='Logo' />
+          <img role='logo' className='logo' src={AgencyLogo} alt='Logo' />
           <div className='hamburger toggle' onClick={toggleHamburger}>
             <Hamburger />
           </div>
