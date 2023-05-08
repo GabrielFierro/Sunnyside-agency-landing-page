@@ -48,7 +48,7 @@ a {
   padding: 100px 50px;
 }
 
-.containerSection h4 {
+.containerSection h1 {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
@@ -573,7 +573,7 @@ a {
       padding: 50px 0;
     }
 
-    .containerSection h4 {
+    .containerSection h1 {
       margin-bottom: 0;
     }
 

@@ -90,7 +90,7 @@ export default function App() {
       </main>
       {/* Section for the testimonials */}
       <section className='containerSection'>
-        <h4>Client testimonials</h4>
+        <h1>Client testimonials</h1>
         <div className='containerFlex'>
           {/* Render the Testimonial component */}
           <Testimonial
